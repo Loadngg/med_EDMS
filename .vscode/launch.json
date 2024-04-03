@@ -8,7 +8,7 @@
 			"name": "server",
 			"type": "node",
 			"request": "launch",
-			"cwd": "${workspaceFolder}/backend",
+			"cwd": "${workspaceFolder}/server",
 			"runtimeExecutable": "npm",
 			"runtimeArgs": ["run", "server"],
 			"console": "integratedTerminal",
