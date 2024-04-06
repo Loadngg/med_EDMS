@@ -1,15 +1,16 @@
+import { Layout } from "antd";
 import { FC } from "react";
-import { Navigate, Route, Routes } from "react-router-dom";
-import { RouteNames, SiteRoutes } from "./routes";
+import AppRouter from "./components/AppRouter";
+import Navbar from "./components/Navbar";
 
 const App: FC = () => {
 	return (
-		<Routes>
-			{SiteRoutes.map((route) => (
-				<Route index={route.index} path={route.path} element={<route.component />} key={route.path} />
-			))}
-			<Route path="*" element={<Navigate to={RouteNames.HOME} replace />} />
-		</Routes>
+		<Layout>
+			<Navbar />
+			<Layout.Content>
+				<AppRouter />
+			</Layout.Content>
+		</Layout>
 	);
 };
 
