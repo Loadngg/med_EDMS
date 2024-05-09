@@ -1,6 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const sequelize = require("./db");
+// noinspection JSUnusedLocalSymbols
 const models = require("./models/models");
 const path = require("path");
 const fileUpload = require("express-fileupload");
