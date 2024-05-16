@@ -24,8 +24,8 @@ const Client = sequelize.define("client", {
 	id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
 	fullName: { type: DataTypes.STRING, allowNull: false },
 	birthday: { type: DataTypes.DATEONLY, allowNull: false },
-	idCard: { type: DataTypes.INTEGER, allowNull: false },
-	policy: { type: DataTypes.INTEGER, allowNull: false },
+	idCard: { type: DataTypes.STRING, allowNull: false },
+	policy: { type: DataTypes.STRING, allowNull: false },
 });
 
 const Reason = sequelize.define("reason", {
