@@ -4,5 +4,7 @@ const profileController = require('../controllers/profileController')
 
 router.post('/', profileController.create)
 router.get('/', profileController.getAll)
+router.put('/:id', profileController.update)
+router.delete('/:id', profileController.delete)
 
 module.exports = router
