@@ -1,11 +1,11 @@
-import { Layout, Menu, Row } from "antd";
-import { FC } from "react";
+import { Layout, Menu, Row } from 'antd'
+import { FC } from 'react'
 
 const Navbar: FC = () => {
 	return (
 		<Layout.Header>
-			<Row justify={"end"}>
-				<Menu theme="dark" mode="horizontal" style={{ flex: 1, minWidth: 0, justifyContent: "flex-end" }}>
+			<Row justify={'end'}>
+				<Menu theme='dark' mode='horizontal' style={{ flex: 1, minWidth: 0, justifyContent: 'flex-end' }}>
 					<Menu.Item key={1}>Логин</Menu.Item>
 					<Menu.Item key={2}>Логин</Menu.Item>
 					<Menu.Item key={3}>Логин</Menu.Item>
@@ -16,7 +16,7 @@ const Navbar: FC = () => {
 				</Menu>
 			</Row>
 		</Layout.Header>
-	);
-};
+	)
+}
 
-export default Navbar;
+export default Navbar

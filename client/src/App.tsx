@@ -1,7 +1,7 @@
-import { Layout } from "antd";
-import { FC } from "react";
-import AppRouter from "./components/AppRouter";
-import Navbar from "./components/Navbar";
+import { Layout } from 'antd'
+import { FC } from 'react'
+import AppRouter from './components/AppRouter'
+import Navbar from './components/Navbar'
 
 const App: FC = () => {
 	return (
@@ -11,7 +11,7 @@ const App: FC = () => {
 				<AppRouter />
 			</Layout.Content>
 		</Layout>
-	);
-};
+	)
+}
 
-export default App;
+export default App

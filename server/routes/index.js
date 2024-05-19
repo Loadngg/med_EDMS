@@ -1,4 +1,4 @@
-const Router = require("express");
+const Router = require('express')
 const router = new Router()
 const cabinetRouter = require('./cabinetRouter')
 const clientRouter = require('./clientRouter')
@@ -14,4 +14,4 @@ router.use('/profile', profileRouter)
 router.use('/reason', reasonRouter)
 router.use('/reception', receptionRouter)
 
-module.exports  = router
+module.exports = router

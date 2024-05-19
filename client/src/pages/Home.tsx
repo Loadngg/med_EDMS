@@ -1,7 +1,7 @@
-import { FC } from "react";
+import { FC } from 'react'
 
 const Home: FC = () => {
-	return <div>Работает</div>;
-};
+	return <div>Работает</div>
+}
 
-export default Home;
+export default Home
