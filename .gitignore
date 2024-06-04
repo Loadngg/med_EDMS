@@ -18,4 +18,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/server/static
+*.sqlite3
+/**/__pycache__
+/**/.idea
